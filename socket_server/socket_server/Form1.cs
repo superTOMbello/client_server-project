@@ -26,9 +26,11 @@ namespace socket_server
 
         private void button1_Click(object sender, EventArgs e)
         {
-         string data = null;
+            label3.Text = "ATTIVO";
 
-        byte[] bytes = new Byte[1024];
+            string data = null;
+
+            byte[] bytes = new Byte[1024];
 
             // Establish the local endpoint for the socket.  
             // Dns.GetHostName returns the name of the   

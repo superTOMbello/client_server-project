@@ -26,6 +26,8 @@ namespace socket_client
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label3.Text = "ATTIVO";
+
             byte[] bytes = new byte[1024];
 
             // Connect to a remote device.  
